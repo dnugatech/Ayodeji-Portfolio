@@ -1,0 +1,66 @@
+body{
+    color: rgb(64, 81, 78);
+    text-align: center;
+    margin: 0px;
+    display: block;
+}
+#starter{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    background-image: url(./assets/daniel-korpai-XQBSvPbTnOQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#colorchange{
+    font-style: italic;
+    color: #1e0342;
+    font-size: 3rem;
+}
+#textcolor, #portfolio, #contactus {
+    color: #1e0342;
+}
+#contactus{
+    text-decoration: none;
+}
+#mypic{
+    border-radius: 90px;
+    height: 180px;
+    width: 180px;
+}
+.intro {
+    width: 50%;
+    margin: auto;
+}
+.contact-me, .contact-message, .carousel-heading, .profile {
+    color: #1E0342;
+}
+#contact-inmessage, .carousel-words, p{
+    color: #0E46A3;
+}
+#cat, #backend, #webdev, #coding{
+    border-radius: 75px;
+    border-color: #1E0342;
+    border-style: solid;
+    border-width: 3px;
+    height: 400px;
+    width: 400px;
+}
+
+h2, h3{
+    color: #1E0342;
+}
+
+#footer{
+    height: 30vh;
+    padding-bottom: 3vh;
+    background-color: #1e0342;
+}
+.footer-link {
+    text-decoration: none;
+    color: #0E46A3;
+}
+.copyright{
+    color: #9AC8CD;
+}
